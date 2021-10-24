@@ -1,9 +1,6 @@
 version: '3'
 services:
   calibrate:
-version: '3'
-services:
-  calibrate:
     image: "calibrate:latest"
     command: python -u manage.py runserver 0.0.0.0:80
     ports:
