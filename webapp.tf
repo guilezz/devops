@@ -1,6 +1,6 @@
 # we provision resources only in aws region which is defined by the variable
 provider "aws" {
-  region = "eu-west-1"
+  region = "us-east-1"
 }
 
 # Create a new VPC using the 10.0.0.0/16 CIDR block
